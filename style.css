@@ -24,9 +24,9 @@ header {
 }
 
 .logo h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #7400B8; /* Colore viola elettrico */
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: bold;
     font-family: 'Heebo', sans-serif; /* Cambia il font a Heebo */
 }
