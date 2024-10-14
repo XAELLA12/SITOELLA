@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Heebo', sans-serif;
     background-color: #000;
     color: #fff;
     overflow-x: hidden;
@@ -24,19 +24,12 @@ header {
 }
 
 .logo h1 {
-    font-size: 6rem;
-    color: #7400B8; /* Colore VIOLA brillante */
-    letter-spacing: 5px;
+    font-size: 5rem; /* Ingrandito il font della scritta ELLA */
+    color: #00ff00; /* Colore verde brillante */
+    letter-spacing: 3px;
     font-weight: bold;
-    font-family: 'Heebo', sans-serif; /* Cambia il font a Heebo */
-
-}
-
-.logo p {
-    font-size: 1.2rem;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase; /* Tutto maiuscolo */
 }
 
 nav ul {
