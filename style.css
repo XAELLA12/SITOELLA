@@ -28,7 +28,9 @@ header {
     color: #7400B8; /* Colore viola elettrico */
     letter-spacing: 3px;
     font-weight: bold;
+    font-family: 'Heebo', sans-serif; /* Cambia il font a Heebo */
 }
+
 
 .logo p {
     font-size: 1.2rem;
