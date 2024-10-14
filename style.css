@@ -24,13 +24,13 @@ header {
 }
 
 .logo h1 {
-    font-size: 5rem;
-    color: #7400B8; /* Colore viola elettrico */
+    font-size: 6rem;
+    color: #7400B8; /* Colore VIOLA brillante */
     letter-spacing: 5px;
     font-weight: bold;
     font-family: 'Heebo', sans-serif; /* Cambia il font a Heebo */
-}
 
+}
 
 .logo p {
     font-size: 1.2rem;
@@ -60,7 +60,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #7400B8; /* Cambia colore al passaggio del mouse */
+    color: #00ff00; /* Cambia colore al passaggio del mouse */
 }
 
 /* Slider Styling */
@@ -120,5 +120,5 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #7400B8;
+    background-color: #00ff00;
 }
