@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px 50px; /* Spaziatura maggiore */
     background-color: #000;
     position: fixed;
     width: 100%;
@@ -24,18 +24,18 @@ header {
 }
 
 .logo h1 {
-    font-size: 5rem; /* Ingrandito il font della scritta ELLA */
-    color: #7400B8; /* Colore verde brillante */
-    letter-spacing: 3px;
+    font-size: 4rem; /* Dimensione del font simile all'immagine */
+    color: #7400B8; /* Colore VIOLA brillante */
+    letter-spacing: 5px; /* Aumentata la spaziatura tra le lettere */
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
-    text-transform: uppercase; /* Tutto maiuscolo */
+    text-transform: uppercase; /* Testo in maiuscolo */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px; /* Ridotta la distanza tra gli elementi del menu */
 }
 
 nav ul li {
@@ -44,8 +44,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #7400B8;
-    font-size: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem; /* Leggermente più grande */
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: color 0.3s;
@@ -59,27 +59,29 @@ nav ul li a.active {
 /* Slider Styling */
 .slider {
     position: relative;
-    max-width: 100%;
-    height: 100vh;
+    max-width: 80%; /* Ridotta la larghezza dello slider */
+    margin: 0 auto; /* Centra lo slider */
+    height: 65vh; /* Altezza più ridotta per lo slider */
     overflow: hidden;
+    margin-top: 150px; /* Spazio sotto il menu */
 }
 
 .slides {
     display: flex;
-    width: 100%; /* Una immagine alla volta */
+    width: 100%; /* Mostra una immagine alla volta */
     height: 100%;
     transition: transform 0.5s ease-in-out;
 }
 
 .slide {
-    min-width: 100%; /* Mostra una slide alla volta */
+    min-width: 100%; /* Una slide alla volta */
     height: 100%;
 }
 
 .slide img {
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover; /* Assicura che l'immagine riempia lo spazio */
 }
 
 /* Miniature */
@@ -87,7 +89,9 @@ nav ul li a.active {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
+    padding: 20px 0; /* Aggiunta di padding per distanziare le miniature */
+    max-width: 80%;
+    margin: 0 auto; /* Centra le miniature */
 }
 
 .thumbnail {
@@ -113,5 +117,5 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #00ff00;
+    background-color: #7400B8;
 }
