@@ -25,7 +25,7 @@ header {
 
 .logo h1 {
     font-size: 5rem; /* Ingrandito il font della scritta ELLA */
-    color: #00ff00; /* Colore verde brillante */
+    color: #7400B8; /* Colore verde brillante */
     letter-spacing: 3px;
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
@@ -44,7 +44,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #7400B8;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
