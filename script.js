@@ -1,6 +1,6 @@
 let currentSlide = 0;
-const slides = document.querySelector('.slides');
-const totalSlides = document.querySelectorAll('.slide').length;
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
 
 function showSlide(index) {
     if (index >= totalSlides) {
@@ -10,11 +10,11 @@ function showSlide(index) {
     } else {
         currentSlide = index;
     }
-    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+    // Sposta lo slider orizzontalmente per mostrare la slide corrente
+    document.querySelector('.slides').style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
-// Cambia slide ogni 3 secondi
+// Cambia automaticamente ogni 5 secondi
 setInterval(() => {
     showSlide(currentSlide + 1);
-}, 3000);
-
+}, 5000);
