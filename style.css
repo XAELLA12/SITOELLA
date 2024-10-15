@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Heebo', sans-serif;
-    background-color: #000;
-    color: #fff;
+    background-color: #AA3A2E; /* Sfondo rosso intenso */
+    color: #000000; /* Testo nero */
     overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ body {
 header {
     padding: 30px 0;
     text-align: center; /* Centra il testo nel menu */
-    background-color: #000;
+    background-color: #AA3A2E; /* Sfondo rosso intenso per l'header */
     position: fixed;
     width: 100%;
     top: 0;
@@ -28,7 +28,7 @@ header {
 
 .logo h1 {
     font-size: 4rem; /* Dimensione grande del font per il titolo */
-    color: #061330; /* Nuovo colore blu scuro */
+    color: #000000; /* Testo nero */
     letter-spacing: 5px; /* Aumentata la spaziatura tra le lettere */
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
@@ -48,7 +48,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000; /* Testo nero */
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -57,7 +57,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #061330; /* Nuovo colore blu scuro al passaggio del mouse */
+    color: #333333; /* Testo nero più chiaro al passaggio del mouse */
 }
 
 /* Slider Styling */
@@ -115,10 +115,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #000;
+    background: #AA3A2E; /* Sfondo rosso intenso anche per il track */
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #061330; /* Nuovo colore per la scrollbar */
+    background-color: #000000; /* Scrollbar nera */
 }
-
