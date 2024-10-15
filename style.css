@@ -28,7 +28,7 @@ header {
 
 .logo h1 {
     font-size: 4rem; /* Dimensione grande del font per il titolo */
-    color: #061330; /* Colore verde brillante */
+    color: #061330; /* Nuovo colore blu scuro */
     letter-spacing: 5px; /* Aumentata la spaziatura tra le lettere */
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
@@ -48,7 +48,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #061330;
+    color: #ffffff;
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -57,7 +57,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #061330; /* Cambia colore al passaggio del mouse */
+    color: #061330; /* Nuovo colore blu scuro al passaggio del mouse */
 }
 
 /* Slider Styling */
@@ -119,5 +119,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #061330;
+    background-color: #061330; /* Nuovo colore per la scrollbar */
 }
+
