@@ -5,85 +5,91 @@
 }
 
 body {
-    font-family: 'Courier New', monospace;
-    background-color: #000;
-    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    background-color: #000000; /* Sfondo nero */
+    color: #c91900; /* Testo rosso */
     overflow-x: hidden;
 }
 
+.container {
+    max-width: 1200px; /* Limita la larghezza degli elementi */
+    margin: 0 auto; /* Centra tutti gli elementi orizzontalmente */
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #000;
+    padding: 30px 0;
+    background-color: #000000; /* Sfondo nero per l'header */
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Giustifica "ELLA" e il menu */
+    align-items: center;
+    padding: 0 50px; /* Spazio ai lati per allineare con le immagini */
 }
 
 .logo h1 {
-    font-size: 3rem;
-    color: #7400B8; /* Colore viola elettrico */
-    letter-spacing: 3px;
+    font-size: 3rem; /* Dimensione del font per il titolo */
+    color: #c91900; /* Testo rosso */
+    letter-spacing: 3px; /* Spaziatura tra le lettere */
     font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase; /* Testo in maiuscolo */
+    flex-shrink: 0; /* Mantiene la dimensione del titolo fissa */
 }
 
-.logo p {
-    font-size: 1.2rem;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
+nav {
+    display: flex;
+    justify-content: flex-end; /* Menu allineato a destra */
+    flex-grow: 1;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
-}
-
-nav ul li {
-    display: inline-block;
+    gap: 30px; /* Distanza tra le voci del menu */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
+    color: #c91900; /* Testo rosso */
+    font-size: 1.2rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: color 0.3s;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #7400B8; /* Cambia colore al passaggio del mouse */
+    color: #ff3b1f; /* Testo rosso più chiaro al passaggio del mouse */
 }
 
 /* Slider Styling */
 .slider {
     position: relative;
-    max-width: 100%;
-    height: 100vh;
+    max-width: 1200px; /* Mantiene il contenuto dello slider centrato */
+    margin: 0 auto; /* Centra lo slider */
+    height: 65vh; /* Altezza dello slider */
     overflow: hidden;
+    margin-top: 100px; /* Spazio sotto il menu */
 }
 
 .slides {
     display: flex;
-    width: 100%; /* Una immagine alla volta */
+    width: 100%;
     height: 100%;
     transition: transform 0.5s ease-in-out;
 }
 
 .slide {
-    min-width: 100%; /* Mostra una slide alla volta */
+    min-width: 100%;
     height: 100%;
 }
 
 .slide img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -92,7 +98,7 @@ nav ul li a.active {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
+    padding: 20px 0;
 }
 
 .thumbnail {
@@ -114,9 +120,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #000;
+    background: #000000; /* Sfondo nero per il track */
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #7400B8;
+    background-color: #c91900; /* Scrollbar rossa */
 }
