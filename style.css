@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Heebo', sans-serif;
-    background-color: #AA3A2E; /* Sfondo rosso intenso */
-    color: #000000; /* Testo nero */
+    background-color:  #000000; /* Sfondo rosso intenso */
+    color:  #c91900; /* Testo nero */
     overflow-x: hidden;
 }
 
@@ -31,7 +31,7 @@ header {
 
 .logo h1 {
     font-size: 3rem; /* Dimensione del font per il titolo */
-    color: #000000; /* Testo nero */
+    color:  #c91900; /* Testo nero */
     letter-spacing: 3px; /* Ridotta la spaziatura tra le lettere */
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
@@ -54,7 +54,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000; /* Testo nero */
+    color:  #c91900; /* Testo nero */
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -121,9 +121,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #AA3A2E; /* Sfondo rosso intenso anche per il track */
+    background: #000000; /* Sfondo rosso intenso anche per il track */
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #000000; /* Scrollbar nera */
+    background-color:  #000000; /* Scrollbar nera */
 }
