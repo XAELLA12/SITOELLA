@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Heebo', sans-serif;
-    background-color: #82010c; /* Sfondo rosso intenso */
+    background-color: #AA3A2E; /* Sfondo rosso intenso */
     color: #000000; /* Testo nero */
     overflow-x: hidden;
 }
@@ -18,32 +18,38 @@ body {
 
 header {
     padding: 30px 0;
-    text-align: center; /* Centra il testo nel menu */
-    background-color: #82010c; /* Sfondo rosso intenso per l'header */
+    background-color: #AA3A2E; /* Sfondo rosso intenso per l'header */
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; /* Aggiungi padding per più spazio ai lati */
 }
 
 .logo h1 {
-    font-size: 4rem; /* Dimensione grande del font per il titolo */
+    font-size: 3rem; /* Dimensione del font per il titolo */
     color: #000000; /* Testo nero */
-    letter-spacing: 5px; /* Aumentata la spaziatura tra le lettere */
+    letter-spacing: 3px; /* Ridotta la spaziatura tra le lettere */
     font-weight: bold;
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase; /* Testo in maiuscolo */
+    flex-shrink: 0; /* Impedisce che il titolo si riduca */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1; /* Spinge il menu verso destra */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Centra il menu */
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline-block;
+    gap: 30px; /* Distanza tra le voci del menu */
+    padding-right: 50px; /* Distanza tra il menu e la fine dello schermo */
 }
 
 nav ul li a {
@@ -51,23 +57,23 @@ nav ul li a {
     color: #000000; /* Testo nero */
     font-size: 1.2rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: color 0.3s;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #333333; /* Testo nero più chiaro al passaggio del mouse */
+    color: #333333; /* Testo più chiaro al passaggio del mouse */
 }
 
 /* Slider Styling */
 .slider {
     position: relative;
-    max-width: 100%; /* Mantiene il contenuto del slider centrato */
+    max-width: 1200px; /* Mantiene il contenuto del slider centrato */
     margin: 0 auto;
     height: 65vh; /* Altezza dello slider */
     overflow: hidden;
-    margin-top: 150px; /* Spazio sotto il menu */
+    margin-top: 120px; /* Spazio sotto il menu */
 }
 
 .slides {
